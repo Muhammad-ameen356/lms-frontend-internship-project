@@ -1,0 +1,57 @@
+@use "../../root";
+
+.mainContainer {
+  width: 160px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  position: relative;
+  &:hover {
+    background-color: root.$main_red;
+    color: white !important;
+    transition: 0.2s;
+  }
+  &:hover .icon {
+    color: white;
+  }
+  &:hover .title {
+    color: white;
+  }
+  .innerMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .icon {
+    font-size: 30px;
+    color: root.$main_red;
+  }
+  .title {
+    margin-top: 10px;
+  }
+  &:after,
+  &:before {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    border: 1px solid rgb(132, 132, 132);
+  }
+  &:after {
+    left: 10px;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    border-left: none;
+    border-right: none;
+  }
+  &:before {
+    top: 10px;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    border-top: none;
+    border-bottom: none;
+  }
+}

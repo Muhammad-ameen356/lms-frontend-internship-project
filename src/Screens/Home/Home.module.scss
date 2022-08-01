@@ -1,0 +1,417 @@
+@use "../../root";
+
+body {
+  transition: 0.4s;
+}
+
+.headerContainer {
+  background-color: root.$main_red;
+  height: 800px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  .innerMainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    .headTitle {
+      margin-bottom: 20px;
+    }
+    .headSubTitle {
+      margin-bottom: 40px;
+    }
+    .exploreBtn {
+      padding: 15px 30px;
+      border-radius: 50px;
+      margin-bottom: 40px;
+      border: 0px;
+      outline: none;
+      color: white;
+      background-color: root.$main_red;
+      -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.52);
+      -moz-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.52);
+      box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.52);
+    }
+    .headManImg {
+      width: 600px;
+    }
+  }
+}
+
+.courseCategoriesContainer {
+  background-color: rgb(243, 243, 243);
+  padding: 80px 0px;
+  .innerMainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    .bottomBorder {
+      border: 1px solid rgb(180, 180, 180);
+      width: 15%;
+    }
+    .courseCategoriesBox {
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      width: 80%;
+    }
+  }
+}
+
+.topCoursesContainer {
+  .innerMainContainer {
+    padding: 120px 0px;
+    .topCoursesHead {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .subTitle {
+        width: 80%;
+      }
+      .viewMorebutton {
+        border: 1px solid black;
+        outline: none;
+        padding: 10px 40px;
+        color: black;
+        background-color: transparent;
+        border-radius: 50px;
+      }
+    }
+  }
+}
+
+.discoverContianer {
+  background-color: rgb(243, 243, 243);
+  padding: 80px 0px;
+  .subTitle {
+    width: 25%;
+  }
+  .pointsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    .backgroundPink {
+      background-color: #c7156f;
+    }
+    .backgroundPurple {
+      background-color: #6b15c7;
+    }
+    .backgroundBlue {
+      background-color: #2515c7;
+    }
+    .background {
+      height: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url(../../assets/images/graphic.png);
+      .innerText {
+        margin: 0px;
+        color: white;
+      }
+    }
+  }
+}
+
+.bestSellerContainer {
+  border-bottom: 1px solid rgb(221, 221, 221);
+  .innerMainContainer {
+    padding: 120px 0px;
+    .topCoursesHead {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .subTitle {
+        width: 80%;
+      }
+      .viewMorebutton {
+        border: 1px solid black;
+        outline: none;
+        padding: 10px 40px;
+        color: black;
+        background-color: transparent;
+        border-radius: 50px;
+      }
+    }
+  }
+}
+
+.acheiveGoalContainer {
+  padding: 80px 0px;
+  .subTitle {
+    width: 30%;
+  }
+}
+
+.clientAppriciationContainer {
+  background-color: rgb(243, 243, 243);
+  padding: 80px 0px;
+  .subTitle {
+    width: 30%;
+  }
+
+  .quoteAndVideoContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .leftContainer {
+      width: 50%;
+      margin-top: 70px;
+      position: relative;
+      .quoteImage {
+        position: absolute;
+      }
+      .description {
+        padding: 35px;
+        font-family: "Roboto-800";
+        line-height: 32px;
+        width: 80%;
+      }
+      .profile {
+        display: flex;
+        align-items: center;
+        .profileImgContainer {
+          .profileImg {
+            border-radius: 50%;
+          }
+        }
+        .profileText {
+          padding-left: 20px;
+          .profileName {
+            margin: 0px;
+            font-family: "Roboto-500";
+          }
+          .profileDesignation {
+          }
+        }
+      }
+    }
+    .rightContainer {
+      width: 50%;
+      height: 300px;
+      .videoContainer {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .companiesLogoContainer {
+    margin-top: 150px;
+    h3 {
+      text-align: center;
+      font-family: "Roboto-700";
+    }
+    .carouselContainer {
+      margin-top: 80px;
+    }
+  }
+}
+
+.ourBlogContainer {
+  padding: 80px 0px;
+  .subTitle {
+    width: 30%;
+  }
+}
+
+.becomeInstructorContainer {
+  width: 100%;
+  background-image: url(../../assets/images/becomeInstructor.png);
+  background-size: 100% 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    text-align: center;
+    font-family: "Roboto-500" !important;
+    letter-spacing: 3px;
+  }
+  .inputAndBtnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .inputAndBtnInnerContainer {
+      position: relative;
+      margin-top: 40px;
+      .joinInput {
+        padding: 15px 70px;
+        width: 600px;
+        border-radius: 50px;
+        outline: none;
+        border: none;
+      }
+      .joinBtn {
+        position: absolute;
+        padding: 15px 60px;
+        border-radius: 50px;
+        right: 0px;
+        background-color: root.$main_red;
+        color: white;
+        outline: none;
+        border: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .clientAppriciationContainer {
+    .subTitle {
+      width: 60%;
+    }
+    .quoteAndVideoContainer {
+      width: 100%;
+      display: block;
+      .leftContainer {
+        width: 100%;
+      }
+      .rightContainer {
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        .videoContainer {
+          width: 80%;
+        }
+      }
+    }
+  }
+
+  .headerContainer {
+    height: 600px;
+    .innerMainContainer {
+      .headTitle {
+        margin-bottom: 20px;
+        font-size: 40px !important;
+        text-align: center;
+      }
+      .headSubTitle {
+        margin-bottom: 40px;
+        font-size: 17px !important;
+        text-align: center;
+      }
+      .headManImg {
+        width: 400px;
+      }
+    }
+  }
+  .topCoursesContainer {
+    .innerMainContainer {
+      .topCoursesHead {
+        display: block;
+        .subTitle {
+          width: 60%;
+        }
+        .viewMorebutton {
+          margin-top: 20px;
+          padding: 10px 60px;
+        }
+      }
+    }
+  }
+  .discoverContianer {
+    .title {
+      text-align: center;
+    }
+    .subTitleContainer {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      .subTitle {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 80%;
+        margin: 0px;
+      }
+    }
+    .pointsContainer {
+      margin-top: 10px;
+      .background {
+        margin-top: 20px;
+      }
+    }
+  }
+  .bestSellerContainer {
+    .innerMainContainer {
+      padding: 120px 0px;
+      .topCoursesHead {
+        display: block;
+        .subTitle {
+          width: 60%;
+        }
+        .viewMorebutton {
+          margin-top: 20px;
+          padding: 10px 60px;
+        }
+      }
+    }
+  }
+  .ourBlogContainer {
+    padding: 80px 0px;
+    .subTitle {
+      width: 60%;
+    }
+  }
+  .becomeInstructorContainer {
+    .inputAndBtnContainer {
+      .inputAndBtnInnerContainer {
+        .joinInput {
+          width: 500px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .headerContainer {
+    height: 500px;
+    .innerMainContainer {
+      .headTitle {
+        margin-bottom: 20px;
+        font-size: 30px !important;
+        text-align: center;
+      }
+      .headSubTitle {
+        margin-bottom: 40px;
+        font-size: 14px !important;
+        text-align: center;
+      }
+      .headManImg {
+        width: 300px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .becomeInstructorContainer {
+    .inputAndBtnContainer {
+      .inputAndBtnInnerContainer {
+        .joinInput {
+          width: 350px;
+          padding: 15px 50px;
+        }
+        .joinBtn {
+          padding: 15px 40px;
+        }
+      }
+    }
+  }
+
+  .courseCategoriesContainer {
+    .innerMainContainer {
+      .courseCategoriesBox {
+        width: 100%;
+      }
+    }
+  }
+}

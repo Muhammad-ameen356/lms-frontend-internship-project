@@ -1,0 +1,54 @@
+@use "../../root";
+
+.mainContainer {
+  background-color: root.$main_red !important;
+  color: white;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.52);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.52);
+}
+
+.rightIcon {
+  padding: 10px 20px !important;
+  color: white !important;
+}
+
+.padding {
+  padding: 20px 20px !important;
+  color: white !important;
+}
+
+.navContainer {
+  padding-left: 20px;
+}
+
+.lms {
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+  font-family: "Roboto-1200";
+}
+
+.edu {
+  font-size: 30px;
+  font-weight: 200;
+  color: white;
+}
+
+.icon {
+  font-size: 22px;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .padding {
+    padding: 10px 0px !important;
+  }
+  .rightIcon {
+    padding: 10px 0px !important;
+    color: white !important;
+  }
+  .navContainer {
+    padding-left: 0px;
+  }
+}

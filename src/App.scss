@@ -1,0 +1,157 @@
+$font-stack: Helvetica, sans-serif;
+$primary_color: #333;
+
+:root {
+  --greenBackground: #00c463;
+  --lightBlue: #009ce5;
+}
+
+@font-face {
+  font-family: "Roboto-1200";
+  src: url("./assets/fonts/roboto/Roboto-Black.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto-1100";
+  src: url("./assets/fonts/roboto/Roboto-BlackItalic.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto-1000";
+  src: url("./assets/fonts/roboto/Roboto-Bold.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto-900";
+  src: url("./assets/fonts/roboto/Roboto-BoldItalic.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto-800";
+  src: url("./assets/fonts/roboto/Roboto-Italic.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto-700";
+  src: url("./assets/fonts/roboto/Roboto-Light.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto-600";
+  src: url("./assets/fonts/roboto/Roboto-LightItalic.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto-500";
+  src: url("./assets/fonts/roboto/Roboto-Medium.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto-400";
+  src: url("./assets/fonts/roboto/Roboto-MediumItalic.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto-300";
+  src: url("./assets/fonts/roboto/Roboto-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto-200";
+  src: url("./assets/fonts/roboto/Roboto-Thin.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-100";
+  src: url("./assets/fonts/roboto/Roboto-ThinItalic.ttf");
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 60px !important;
+  font-family: "Roboto-1200";
+}
+
+h2 {
+  font-size: 36px !important;
+  font-family: "Roboto-1200";
+}
+
+h3 {
+  font-size: 30px !important;
+  font-family: "Roboto-1000";
+}
+
+h4 {
+  font-size: 24px !important;
+  font-family: "Roboto-500";
+}
+
+h5 {
+  font-size: 20px !important;
+  font-family: "Roboto-1000";
+}
+
+h6 {
+  font-size: 18px !important;
+  font-family: "Roboto-1000";
+}
+
+.p-16 {
+  font-size: 16px !important;
+  font-family: "Roboto-500";
+}
+
+.p-14 {
+  font-size: 14px !important;
+  font-family: "Roboto-300";
+}
+
+.button160 {
+  font-family: "Lato-400";
+  width: 160px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: var(--greenBackground);
+  color: white;
+  font-size: 18px;
+  outline: none;
+  border: none;
+}
+
+.button120 {
+  font-family: "Lato-400";
+  width: 120px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--lightBlue);
+  border: 1px solid var(--lightBlue);
+  font-size: 18px;
+}
+
+.getStarted {
+  font-family: "Lato-400";
+  width: 138px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: var(--greenBackground);
+  color: white;
+  font-size: 18px;
+  outline: none;
+  border: none;
+}
+
+.getStartedTransparent {
+  font-family: "Lato-400";
+  width: 160px;
+  height: 50px;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
